@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wischool</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header__img_wrapper">
+            <img src="./assets/images/menu.svg" id="header__menu_svg" class="header__menu_svg" alt="">
+            <img src="./assets/images/logo.png" alt="">
+
+            <nav class="mobile__nav" id="mobile__nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Courses</a>
+                    </li>
+                    <li>
+                        <a href="#">Instructors</a>
+                    </li>
+                    <li>
+                        <a href="#">Schedules</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="nav__close_btn" id="nav__close_btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </nav>
+        </div>
+
+        <nav class="header__nav">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Courses</a>
+                </li>
+                <li>
+                    <a href="#">Instructors</a>
+                </li>
+                <li>
+                    <a href="#">Schedules</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+
+            </ul>
+
+            <div class="header__right_box">
+                <div class="header__avatar_wraper">
+                    <img src="./assets/images/avatar.svg" alt="">
+                </div>
+                <div class="header__search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header__user">
+                    <a href="#" class="btn btn--small btn--bg_white ml-14">
+                        Login
+                    </a>
+                    <a href="#" class="btn btn--medium ml-8">
+                        Register
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero container">
+        <div class="hero_body">
+            <div class="hero__body_content">
+                <h2>Quality <span class="green-color">Education</span> By Any Means Necessary.</h2>
+                <button class="btn btn-extra btn--bold btn--no_radius mt-68 hero__btn">Get Started</button>
+            </div>
+
+            <div class="hero__image_wrapper">
+                <img src="./assets/images/hero.png" alt="">
+            </div>
+
+        </div>
+        <div class="hero__footer">
+            <div class="hero__footer__item">
+                <i class="fa-solid fa-circle-xmark"></i>
+                Problem Solving
+            </div>
+            <div class="hero__footer__item">
+                <i class="fa-solid fa-comments"></i>
+                Live chat
+            </div>
+            <div class="hero__footer__item">
+                <i class="fa-solid fa-user-group"></i>
+                Group Reading
+            </div>
+            <div class="hero__footer__item">
+                <i class="fa-solid fa-book-open"></i>
+                10k Courses
+            </div>
+            <div class="hero__footer__item">
+                <i class="fa-solid fa-hand-holding-hand"></i>
+                Hand-on activities
+            </div>
+        </div>
+    </section>
+
+    <section class="categories container">
+        <div class="section__heading">
+            <h2 class="section__title">Choose favourite course from top cartegories</h2>
+            <a href="#">See all</a>
+        </div>
+
+        <div class="section__body">
+            <div class="category__arrow category__left_arrow">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="category__item" style="background-image: url('./assets/images/category1.png');">
+                <p>Marketing</p>
+            </div>
+            <div class="category__item" style="background-image: url('./assets/images/category1.png');">
+                <p>Design</p>
+            </div>
+            <div class="category__item" style="background-image: url('./assets/images/category1.png');">
+                <p>Programming</p>
+            </div>
+            <div class="category__item" style="background-image: url('./assets/images/category1.png');">
+                <p>Technology</p>
+            </div>
+
+            <div class="category__arrow category__right_arrow">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="courses container">
+        <div class="section__heading">
+            <h2 class="section__title">Most Popular courses</h2>
+            <button href="#" class="section__sorting"><i class="fa-solid fa-angle-down"></i> <span>See
+                    all</span></button>
+        </div>
+
+        <div class="courses__wrapper">
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="courses container">
+        <div class="section__heading">
+            <h2 class="section__title">Learn New skill within 2 hours</h2>
+            <button href="#" class="section__sorting"><i class="fa-solid fa-angle-down"></i> <span>See
+                    all</span></button>
+        </div>
+
+        <div class="courses__wrapper">
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course__img">
+                    <img src="./assets/images/course1.png" alt="">
+                </div>
+                <div class="course__content">
+                    <h2 class="course__title">Learn Marketing from Top Instructors.</h2>
+                    <span class="course__start"><i class="fa-regular fa-star green-color"></i> 4.5</span>
+                    <div class="course__details">
+                        <span class="course__price green-color">30.5$</span>
+                        <p>6 weeks <i class="fa-solid fa-user-group green-color"></i> 1.5k Students</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class=" education container">
+        <div class="section__heading">
+            <h2 class="section__title color--black-1">We Bring The Good Education To Life</h2>
+        </div>
+        <div class="education__wrapper">
+            <div class="eduication__img-wrapper">
+                <img src="./assets/images/education.png" alt="">
+            </div>
+
+            <div class="education__content">
+                <h3>Let Your Education Do The Walking</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-book-open green-color"></i>
+                        Free E-book, Videos and kits
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock green-color"></i>
+                        Learn at your own pace
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-briefcase green-color"></i>
+                        Collaborate with different learners around the globe
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user-group green-color"></i>
+                        Top instructors around the globe
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container reviews">
+        <div class="section__heading w--full display-block">
+            <h2 class="section__title text--center w--full">Reviews</h2>
+        </div>
+
+        <div class="reviews__wrapper">
+            <div class="rewiews__controller">
+                <h3>What our Students say about us</h3>
+                <div class="reviews__controller__arrows">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+
+            <div class="reviews__container">
+                <div class="review__item">
+                    <div class="review_details">
+                        <img src="./assets/images/review_avatar.png" alt="">
+                        <div class="review__user-data">
+                            <h3>Mohh Jumah</h3>
+                            <p class="green-color">Senior Developer</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa
+                        elementum mollis lectus.
+                        Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis
+                    </p>
+                </div>
+                <div class="review__item">
+                    <div class="review_details">
+                        <img src="./assets/images/review_avatar.png" alt="">
+                        <div class="review__user-data">
+                            <h3>Mohh Jumah</h3>
+                            <p class="green-color">Senior Developer</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa
+                        elementum mollis lectus.
+                        Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis
+                    </p>
+                </div>
+                <div class="review__item">
+                    <div class="review_details">
+                        <img src="./assets/images/review_avatar.png" alt="">
+                        <div class="review__user-data">
+                            <h3>Mohh Jumah</h3>
+                            <p class="green-color">Senior Developer</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa
+                        elementum mollis lectus.
+                        Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container instructors">
+        <div class="section__heading w--full display-block">
+            <h2 class="section__title color--black-1 w--full">Meet our instructors</h2>
+        </div>
+
+        <div class="instructors__wrapper">
+            <div class="instructor">
+                <img src="./assets/images/instructor.png" class="instructor__img" alt="">
+                <h3 class="instructor__name">John Mark</h3>
+                <p class="instructor__position green-color">Senior Developer</p>
+                <p class="instrurctor__desc">“Education will be for you what you want it to be”</p>
+            </div>
+            <div class="instructor">
+                <img src="./assets/images/instructor2.png" class="instructor__img" alt="">
+                <h3 class="instructor__name">Lora Shrof</h3>
+                <p class="instructor__position green-color">Marketing Lead</p>
+                <p class="instrurctor__desc">
+                    “Knowledge has to be improved, challenged, and increased constantly, or it vanishes”
+                </p>
+            </div>
+            <div class="instructor">
+                <img src="./assets/images/instructor3.png" class="instructor__img" alt="">
+                <h3 class="instructor__name">Zeng Chin</h3>
+                <p class="instructor__position green-color">Data Analist at Meta</p>
+                <p class="instrurctor__desc">
+                    “To know that we know what we know, and to know that we do not know what we do not know, that is
+                    true knowledge”
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact__bg-box">
+            <div class="contact__wrapper container">
+                <div class="contact__image">
+                    <img src="./assets/images/contact.png" alt="">
+                </div>
+                <div class="contact__content">
+                    <h2>
+                        You don’t have to see the whole staircase just take the first step
+                    </h2>
+                    <p>
+                        Amet in a suspendisse convallis eget, Amet in a suspendisse convallis egetAmet in a
+                    </p>
+                    <div class="contact__buttons">
+                        <button class="btn btn-extra">Get Started</button>
+                        <button class="btn btn-extra btn--bg_white btn--green-border">Place a call</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_wrapper container">
+            <div class="footer__left">
+                <h1>WiSchool</h1>
+                <p>
+                    We are not here to sell you products, we sell value through our expertise.
+                </p>
+
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__nav">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Training</li>
+                    <li>Resources</li>
+                    <li>About Us</li>
+                </ul>
+
+                <ul>
+                    <li>SME</li>
+                    <li>Solution</li>
+                    <li>Reviews</li>
+                    <li>Blog</li>
+                </ul>
+
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Place a Call</li>
+                    <li>Email</li>
+                    <li>Wischool@gmail.com</li>
+                </ul>
+
+                <ul>
+                    <li>Job Opening</li>
+                    <li>News</li>
+                    <li>Research</li>
+                </ul>
+
+                <ul>
+                    <li>Uk Privacy Policy</li>
+                    <li>Terms of Use</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__subscribe container">
+            <h3>Subscribe to get latest updates</h3>
+            <form>
+                <input type="text" placeholder="Your Email address">
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("nav__close_btn").addEventListener("click", (e) => {
+            document.getElementById("mobile__nav").style.width = "0px";
+            document.getElementById("mobile__nav").style.opacity = "0";
+        });
+        document.getElementById("header__menu_svg").addEventListener("click", (e) => {
+            document.getElementById("mobile__nav").style.width = "100%";
+            document.getElementById("mobile__nav").style.opacity = "1";
+        });
+    </script>
+</body>
+
+</html>
